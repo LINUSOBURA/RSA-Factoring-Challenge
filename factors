@@ -18,7 +18,7 @@ def factorize_file(file_path):
     for num in numbers:
         p, q = factorize_number(num)
         if p is not None and q is not None:
-            factorizations.append(f"{num}={p}*{q}")
+            factorizations.append(f"{num}={q}*{p}")
 
     return factorizations
 
